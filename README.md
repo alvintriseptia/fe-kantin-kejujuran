@@ -9,6 +9,9 @@ Kantin Kejujuran app is a simple website that consists of some items for sale by
 ## Frontend
 * React
 * Material UI
+* Axios
+* React Hook Form
+* React Router Dom
 
 ## Backend
 * Express JS
