@@ -25,7 +25,7 @@ function useBalanceProvider() {
 		if (token) {
 			try {
 				const response = await axios.get(
-					"http://localhost:5000/api/box/balance",
+					`${config.API_URL}/box/balance`,
 					{
 						headers: {
 							"x-access-token": localStorage.getItem("token"),
