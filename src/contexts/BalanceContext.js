@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useState, createContext, useContext } from "react";
+import config from "../configs/config.json";
 
 const BalanceContext = createContext();
 
